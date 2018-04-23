@@ -58,7 +58,6 @@ public class UserApp {
 						while (rs2.next()) {
 							int sol_id = rs2.getInt("id");
 							int exer_id = rs2.getInt("exercise_id");
-							// String desc = rs2.getString("description");
 							System.out.println(counter + ". Exercise=" + exer_id + " (id." + sol_id + ")");
 							solutionIdsToComplete.add(sol_id);
 							counter++;
